@@ -1,94 +1,80 @@
-# Streamlit Data Visualization Examples
+# Análise Socioeconômica de Natal/RN
 
-This repository contains examples of interactive data visualizations using Streamlit. The examples demonstrate various Streamlit features including basic elements, interactive widgets, Plotly visualizations, layout containers, and data filtering.
+Esta aplicação Streamlit demonstra uma análise interativa dos dados socioeconômicos dos bairros de Natal/RN, utilizando visualizações com Plotly e recursos de filtragem dinâmica.
 
-## Prerequisites
+## Pré-requisitos
 
-- Python 3.12 or later
-- pip (Python package installer)
+- Python 3.8 ou superior
+- pip (gerenciador de pacotes Python)
 
-## Installation
+## Instalação
 
-1. Clone this repository:
+1. Clone este repositório:
 ```sh
 git clone git@github.com:VictorNGomes/Streamlit-Introduction.git
-cd <repository-folder>
+cd Streamlit-Introduction
 ```
 
-2. Create a virtual environment:
+2. Crie um ambiente virtual:
 ```sh
 python -m venv env
 ```
 
-3. Activate the virtual environment:
+3. Ative o ambiente virtual:
 
-**On Linux/macOS**:
+**No Linux/macOS**:
 ```sh
 source env/bin/activate
 ```
 
-**On Windows**:
+**No Windows**:
 ```sh
 .\env\Scripts\activate
 ```
 
-4. Install required packages:
+4. Instale as dependências necessárias:
 ```sh
 pip install streamlit pandas plotly numpy
 ```
 
-## Running the Examples
+## Executando a Aplicação
 
-After activating the virtual environment, you can run any of the example scripts using:
+Com o ambiente virtual ativado, execute:
 
 ```sh
-streamlit run <script-name>.py
+streamlit run streamlit_app.py
 ```
 
-Available examples:
+A aplicação abrirá automaticamente em seu navegador padrão no endereço `http://localhost:8501`.
 
-- Basic Elements:
-```sh
-streamlit run exemplo1_elementos_basicos.py
+## Funcionalidades
+
+- Visualização espacial dos bairros de Natal/RN
+- Filtros por região e indicadores socioeconômicos
+- Análise estatística por bairro e região
+- Gráficos interativos usando Plotly
+- Comparações entre regiões da cidade
+
+## Estrutura do Projeto
+
+```
+Streamlit-Introduction/
+├── README.md
+├── .gitignore
+├── streamlit_app.py
+└── env/
 ```
 
-- Interactive Widgets:
-```sh 
-streamlit run exemplo2_widgets_interativos.py
-```
+## Dados
 
-- Plotly Visualization:
-```sh
-streamlit run exemplo3_plotly_visualizacao.py
-```
+A aplicação utiliza dados socioeconômicos dos bairros de Natal/RN, incluindo:
+- Renda mensal por pessoa
+- Rendimento nominal médio
+- População total
+- Distribuição espacial dos bairros
 
-- Layout Containers:
-```sh
-streamlit run exemplo4_layout_containers.py
-```
+## Dependências Principais
 
-- Data Filtering:
-```sh
-streamlit run exemplo5_filtros_dados_reais.py
-```
-
-The app will open automatically in your default web browser at `http://localhost:8501`.
-
-## Structure
-
-- `exemplo1_elementos_basicos.py`: Demonstrates basic Streamlit text and formatting elements
-- `exemplo2_widgets_interativos.py`: Shows interactive widgets like buttons, selectors, and input fields
-- `exemplo3_plotly_visualizacao.py`: Examples of interactive data visualization using Plotly
-- `exemplo4_layout_containers.py`: Demonstrates layout options and containers
-- `exemplo5_filtros_dados_reais.py`: Shows how to implement data filters using real data
-
-## Data
-
-The examples use socioeconomic data from Natal/RN, Brazil. The data is loaded directly from a GitHub repository during runtime.
-
-## Requirements
-
-Main dependencies:
 - streamlit
 - pandas
 - plotly
