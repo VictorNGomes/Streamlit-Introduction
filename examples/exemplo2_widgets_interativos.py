@@ -1,3 +1,21 @@
+"""
+Exemplo 2 - Widgets Interativos
+
+Este exemplo explora os diferentes widgets interativos disponíveis no Streamlit:
+- Botões e checkboxes
+- Campos de entrada (texto e números)
+- Seletores (dropdown, multi-select)
+- Sliders
+- Radio buttons
+- Text areas
+
+O objetivo é mostrar como criar interatividade na aplicação e
+responder a ações do usuário.
+
+Autor: Victor Gomes
+Data: Junho 2024
+"""
+
 import streamlit as st
 import pandas as pd
 import numpy as np

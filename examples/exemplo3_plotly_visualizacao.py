@@ -1,3 +1,17 @@
+"""
+Exemplo 3 - Visualizações com Plotly
+
+Este exemplo demonstra diferentes tipos de visualizações usando Plotly:
+- Gráficos de barras
+- Gráficos de dispersão
+
+O objetivo é mostrar como criar visualizações interativas e
+personalizáveis usando Plotly com Streamlit.
+
+Autor: Victor Gomes
+Data: Junho 2024
+"""
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px

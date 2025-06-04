@@ -1,3 +1,20 @@
+"""
+Exemplo 1 - Elementos Básicos do Streamlit
+
+Este exemplo demonstra os elementos fundamentais do Streamlit, incluindo:
+- Texto e formatação com markdown
+- Títulos e subtítulos
+- Layouts básicos
+- Exibição de dados
+- Customização de página
+
+O objetivo é fornecer uma introdução aos componentes básicos necessários
+para criar uma aplicação Streamlit.
+
+Autor: Victor Gomes
+Data: Junho 2024
+"""
+
 import streamlit as st
 import pandas as pd
 import numpy as np

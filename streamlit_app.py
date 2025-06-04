@@ -1,3 +1,19 @@
+"""
+Aplicação Principal - Análise Socioeconômica de Natal/RN
+
+Este é o aplicativo principal que demonstra uma análise completa dos dados socioeconômicos
+dos bairros de Natal/RN. O objetivo é mostrar como criar uma aplicação Streamlit completa
+que integra diferentes elementos:
+- Visualizações interativas com Plotly
+- Filtros dinâmicos por região e indicadores
+- Análises estatísticas
+- Layout responsivo e organizado
+- Manipulação de dados com Pandas
+
+Autor: Victor Gomes
+Data: Junho 2024
+"""
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px

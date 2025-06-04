@@ -1,3 +1,20 @@
+"""
+Exemplo 4 - Layout e Containers
+
+Este exemplo demonstra as diferentes opções de layout do Streamlit:
+- Colunas
+- Containers
+- Expanders
+- Tabs
+- Sidebar
+
+O objetivo é mostrar como organizar a interface do usuário de forma
+eficiente e responsiva.
+
+Autor: Victor Gomes
+Data: Junho 2024
+"""
+
 import streamlit as st
 import pandas as pd
 import numpy as np

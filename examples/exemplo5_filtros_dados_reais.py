@@ -1,3 +1,20 @@
+"""
+Exemplo 5 - Filtros e Dados Reais
+
+Este exemplo demonstra como implementar filtros interativos usando dados reais:
+- Filtros por região
+- Filtros por indicadores
+- Filtros por faixa de valores
+- Busca textual
+- Atualização dinâmica de visualizações
+
+O objetivo é mostrar como criar uma interface de análise de dados
+interativa e funcional.
+
+Autor: Victor Gomes
+Data: Junho 2024
+"""
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
