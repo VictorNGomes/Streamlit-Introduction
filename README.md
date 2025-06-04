@@ -37,6 +37,18 @@ source env/bin/activate
 pip install streamlit pandas plotly numpy
 ```
 
+## Descrição dos Arquivos
+
+### Aplicação Principal
+- `streamlit_app.py`: Aplicação principal que implementa a análise socioeconômica completa dos bairros de Natal/RN, incluindo visualizações interativas, filtros e estatísticas.
+
+### Exemplos Didáticos
+- `examples/exemplo1_elementos_basicos.py`: Demonstração dos elementos básicos do Streamlit como texto, markdown, títulos e layouts simples.
+- `examples/exemplo2_widgets_interativos.py`: Exemplo completo de widgets interativos como botões, sliders, inputs e seletores.
+- `examples/exemplo3_plotly_visualizacao.py`: Demonstração de diferentes tipos de visualizações usando Plotly.
+- `examples/exemplo4_layout_containers.py`: Exemplos de uso de containers e organização de layout.
+- `examples/exemplo5_filtros_dados_reais.py`: Implementação de filtros interativos com dados reais.
+
 ## Executando a Aplicação
 
 Com o ambiente virtual ativado, execute:
@@ -45,15 +57,16 @@ Com o ambiente virtual ativado, execute:
 streamlit run streamlit_app.py
 ```
 
+Para executar os exemplos:
+```sh
+streamlit run examples/exemplo1_elementos_basicos.py
+streamlit run examples/exemplo2_widgets_interativos.py
+streamlit run examples/exemplo3_plotly_visualizacao.py
+streamlit run examples/exemplo4_layout_containers.py
+streamlit run examples/exemplo5_filtros_dados_reais.py
+```
+
 A aplicação abrirá automaticamente em seu navegador padrão no endereço `http://localhost:8501`.
-
-## Funcionalidades
-
-- Visualização espacial dos bairros de Natal/RN
-- Filtros por região e indicadores socioeconômicos
-- Análise estatística por bairro e região
-- Gráficos interativos usando Plotly
-- Comparações entre regiões da cidade
 
 ## Estrutura do Projeto
 
@@ -62,6 +75,12 @@ Streamlit-Introduction/
 ├── README.md
 ├── .gitignore
 ├── streamlit_app.py
+├── examples/
+│   ├── exemplo1_elementos_basicos.py
+│   ├── exemplo2_widgets_interativos.py
+│   ├── exemplo3_plotly_visualizacao.py
+│   ├── exemplo4_layout_containers.py
+│   └── exemplo5_filtros_dados_reais.py
 └── env/
 ```
 
