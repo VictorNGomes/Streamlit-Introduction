@@ -50,6 +50,8 @@ with col1:
     if mostrar_mapa:
         st.write('Quantidade de bairros por região:')
         st.write(df_natal['regiao'].value_counts())
+    
+st.divider()
 
 # === Campos de entrada ===
 st.header('Campos de Entrada')
@@ -77,6 +79,7 @@ with col2:
     if notas:
         st.info('Anotações salvas!')
 
+st.divider()
 # === Seletores ===
 st.header('Seletores')
 col1, col2 = st.columns(2)
